@@ -1,0 +1,292 @@
+
+@import url(<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,700&display=swap" rel="stylesheet">);
+
+
+
+
+
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F0DEDE;
+    padding-top: 80px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 55px auto 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color:#f8f8f8;
+    color: #333;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+#logo {
+    width: 8%;
+    height: 95%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+
+.logo-container {
+    flex-grow: 1;
+
+}
+
+
+nav img {
+    margin-top: -15px; 
+    vertical-align: middle; 
+   float: right;
+   margin-left: auto;
+   transition: transform 0.3s ease-in-out;
+}
+
+
+header nav img:hover {
+    transform: scale(1.2); 
+}
+
+
+
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-direction: row-reverse;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: #720303;;
+    font-weight: bold;
+    transition: color 0.3s;
+    margin-right: 20px;
+    margin-left: 15px;
+
+
+}
+
+
+
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+#cart {
+    display: none;
+}
+
+#cart.visible {
+    display: block;
+}
+
+
+#cart-icon {
+    display: flex;
+    align-items: center;
+   
+}
+
+#cart-icon-img {
+    margin-right: 20%; 
+}
+
+#cart-count {
+    background-color: #ffcc00;
+    color: #720303;
+    padding: 5px 8px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 10%;
+
+}
+
+
+
+.menu {
+    text-align: center;
+    padding: 30px 0;
+}
+
+
+
+.container {
+    max-width: 700px; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.container h1{
+    color: #720303;
+}
+
+
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 100%; 
+    margin: 0 auto; 
+
+}
+
+.box {
+    width: 200px;
+    margin: 20px 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.box img {
+    width: 70%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.box h3 {
+    margin: 10px 0;
+}
+
+
+#proname {
+    color: #411530; 
+}
+
+
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
+
+
+.menu .box-container .box .price span{
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ffcc00;
+}
+
+
+.about {
+    max-width: 700px; 
+    margin-top: 5%; 
+    margin-bottom: 3%;
+    background-color: white;
+    border-radius: 15px;
+    position: relative;
+    left: 25% ;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    background: var(--black); 
+    flex-wrap: wrap;
+}
+
+.about .row .image {
+    flex: 1 1 40%;
+}
+
+.about .row .image img {
+    width: 70%; 
+    max-width: 100%;
+    height: auto;
+   margin-left: 17% ;
+   margin-top: 22%;
+} 
+
+
+.about .row .content {
+    flex: 1 1 45%;
+    padding: 1rem;
+}
+
+.about .row .content h3 {
+    font-size: 1.5rem; 
+    color: #1b1a1a;
+}
+
+.about .row .content p {
+    font-size: 1.2rem; 
+    color:#7E4B4B;
+    padding: 1rem 0;
+    line-height: 1.6;
+}
+
+#sobre {
+    position: absolute;
+    top: 12%;
+    left: 13%;
+
+color:#720303;
+
+}
+
+
+.foots {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 80%;
+    margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
